@@ -1,4 +1,7 @@
-#include <stdio.h>
+#define PY_SSIZE_T_CLEAN
+#include <Python.h>
+#include <stdint.h>
+
 /*USE 4 SPACES NOT TABS AT ALL FOR CPYTHON*/
 /*and remeber to K.I.S.S*/
 /*I think this is a BootLoader Skeleton*/
