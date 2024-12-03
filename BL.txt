@@ -1,0 +1,5 @@
+some how the bootloader updats my kernal to the processor chip sumha:
+    its gotta be closed source(.exe) from a external...BareMetal some BIOS-Boot-U
+rite bootleader in sepratefile then Kern... again asm kern wtf
+main func reprogram chip and hardware with usr noncents also jmp to usr Kern/O.S
+BtLdr is n flash chip base address(usally the last mem addr bc its ezr to find)
