@@ -1,0 +1,6 @@
+;ASM wrk dont mind
+
+cv - carry overflow
+ch -carry sum
+rnd -  rn = this is the first oprand and its always a register(register0(I think))
+n
