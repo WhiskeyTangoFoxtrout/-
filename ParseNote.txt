@@ -1,0 +1,17 @@
+#Making a parser bc soul tell ima need it for the file docs
+
+*/
+**********************************LEXER LUTHER*****************************
+*/
+
+*This is a tokenizer...#issa freak stdiostream of char/wrdbytes... call ken thomp
+*wit a fye lexer I can make good command for the console/kernal wenever I make the file directory
+#ln(line)------col(column)|col| pos=actual ln,col
+
+#parse
+
+*kno excatly what you are parsing. Bc its a system pipeline. Leaks and pressure = syntax error#Raise an error:
+    ima jus need this lil point indented. Vibes
+    Try and except on pyton works just fine. Wish the compiler version was here...(where u didnt change source code refr3.13docs)
+
+*
