@@ -7,7 +7,7 @@ class Bow:
     def __init__(self,name):
 
         self.name = title
-
+        
     def bootuProcess(self,window):
 
         Window = curses.initscr()
@@ -17,7 +17,8 @@ class Bow:
         curses.beep('5s')
         curses.flash()
         curses.def_shell()
-        
+        curses.napms(500)
     
-    def skel(self):#I should do this in another file na hell naw
+    def skel(self):#I should do this in another file na hell na
+        #im reading the docs and its gone take a second have no idea how to make its auto resolve screen sizes
         pass
