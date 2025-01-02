@@ -4,8 +4,9 @@ import curses
 
 class Bow:
 
-    def __init__(self,name):
+    def __init__(self,name,skel):
 
+        self.skel = curses.newwin(1000,800)
         self.name = title
         
     def bootuProcess(self,window):
@@ -19,6 +20,9 @@ class Bow:
         curses.def_shell()
         curses.napms(500)
     
-    def skel(self):#I should do this in another file na hell na
-        #im reading the docs and its gone take a second have no idea how to make its auto resolve screen sizes
-        pass
+    def frame(self):
+        
+        self.Frame = window.border(0,0,40,0,0,0,0,0)#think this put a line at da 40 pixels
+        self.mousePos = window.move(997,3)
+        self.runna = curses.doupdate()
+        
