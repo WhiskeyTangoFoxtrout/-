@@ -1,0 +1,16 @@
+#system of files I dont need the comment lmao
+
+What is a file system???
+- ok how ima structure it bc I need to think this out:
+    So there is a home file access(im on the curnal and there is not mouse input)
+    Also want access to 2nd level info.(basically the lowest form of access bc this isnt written in ASM)
+    need a way to create files(guessing, []#*TRYING NOT TO USE THE OS so we get good*#) 
+
+I need a way to write files(With out the current os file system):
+    ima need to make a app and window that can take writing and save the info
+
+Also needs a way to create and save new files. thinking a dictionary:
+    a dictionary doesnt work. What if the folder has multiple files.. see my current problem
+
+
+    
