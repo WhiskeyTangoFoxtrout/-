@@ -1,3 +1,4 @@
+//I need away to figure when this run its also execute the windows(kern) app
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include <stdint.h>
