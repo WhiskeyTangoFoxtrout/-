@@ -1,5 +1,6 @@
 #this is a lexer, yup and some how its gonna connect to a window and a file system
 #this is the skeleton of a parser had to borrow from the old acccount
+#ima have to add this to an program where the user gives input to the comman console
 class commands:
 #remeber this is fixed
     
