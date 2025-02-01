@@ -1,0 +1,44 @@
+#*
+                -----><|>>>>>>>>>>>>*BASIC INSTRUCS*<<<<<<<<<<<<|><-----  
+*#
+
+'ABS'::Absolute Value
+'ADC'::ADD W/carry
+'ADCS'::Add w/carry, setting flags
+'ADD'(extended registed):: add extened and scaled register#bits?
+'ADD'(Immediate)::ADD immediate value#Pure int?
+'ADD'(shfited register)::ADD opt-shft reg
+'ADDG'::ADD w/tag
+'ADDPT'::ADD checked pointer
+'ADDS'(ext'd reg)::ADD ext'd and scaled reg, setting flags
+'ADDS'(haste(immediate))::ADD Current value, setting flags
+'ADDS(shft reg)':: ADD opt-shft reg, setting flags
+'ADR'::Form PC-relative addr
+'ADRP'::Form PC-relative addr to 4KB page
+'AND'(Haste)::bitwise AND (immed)
+'AND'(shft reg):: Bitwise AND (shft reg)
+'APAS'::Associate physical addr space(an alias of SYS)
+'ASR(haste)'::Arthimetic shft rgt(immed)::an alias of SBFM
+'ASR'(reg)::Arthimetic shft rgt(reg)::an alias of ASRV
+'ASRV'::Arthmetic shft rgt var
+'AT'::Addr translate(an alias of SYS)
+'AUTDA'/'AUTDZA'::Auth data addr(using key A)
+'AUTDA'/'AUTDZB'::Auth data addr(using key B)
+'AUTIA'/'AUTIA1716'/'AUTIASP'/'AUTIA/'AUTIZA'::auth instruct addr(using key A)
+'AUTHIB171615'::auth instrct addr(using key B)
+'AUTIBSPPC'::Auth return addr using key B(immed offset)
+'AUTIBSPPCR'::Auth return addr using key b(using reg)
+'AXFLAG'::Convert floating-point condition flags from Arm to external format
+'B'::Branch
+'B.cond'::Branch conditonally
+'BC.cond'::Branch consist condit
+'BFC'::Bitfield clr(an alias of BFM)
+'BFI'::Bitfield insert(an alias of BFM)
+'BFM'::Bitfield mov
+'BFXIL'::Bitfield extract and insert at low end(an alias of BFM)
+'BIC'(shft reg)::Bitwise bit clr(shft reg)
+'BICS'(shft reg)::Bitwise bit clr(shft reg), settings flags
+'BL'::Branch with link
+'BLR'::Branch with link to reg
+'BLRAA'/'BLRAAZ'/'BLRAB'/'BLRABZ'::Branch with link 2 reg(w/pointer auth)#...
+'BR'::Branch to reg
