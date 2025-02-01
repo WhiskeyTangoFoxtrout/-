@@ -1,0 +1,33 @@
+#*
+**********************************************************THIS***************************************************************
+//////////////////////////////////////////////////|*|*|*|*|IS|*|*|*|*|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+***********************************************CHAPTER TWO N DOCS IM READN***************************************************
+*#
+
+#*
+
+Something wrongwith sumone docs and mines too
+
+R= "Relaxation"
+C="Clarifaction"
+D="Defect"
+E="Enhancment"
+
+VMOVL:
+    L must be 0
+    'imm3H' Cant be 000
+
+
+
+0x0005, L1D_TLB_REFILL, Level 1 data TLB refill
+The counter does not count the access if any of the following are true:
+    • The access misses in the TLB and generates a translation table walk but does not cause a refill of the TLB.
+    • The access is due to a TLB maintenance instruction.
+    • The access generates a Translation fault because the applicable TCR_ELx.EPDy bit is 1.
+    • FEAT_E0PD is implemented and the access is an unprivileged access that generates a Translation fault because the applicable TCR_ELx.E0PDy bit is 1.
+    • FEAT_SVE is implemented and the access is a non-fault access that fails because the applicable TCR_ELx.NFDy bit is 1.
+It is IMPLEMENTATION DEFINED whether the counter counts the access if any of the following are
+true:
+    • The refill is not allocated in the TLB.
+    • The access generates a Translation fault for any other reason.
+
