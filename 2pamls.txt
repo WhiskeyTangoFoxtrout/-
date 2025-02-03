@@ -1,0 +1,7 @@
+"a" specifies that the section is allocatable.
+"x" specifies that the section is executable.
+"w" specifies that the section is writable.
+"S" specifies that the section contains null-terminated strings.
+"CODE" specifies that the section contains machine instructions.
+"READONLY" specifies that the section must not be written to.
+"ALIGN=n" specifies that the section is aligned on a 2n byte boundary
