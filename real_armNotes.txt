@@ -1,0 +1,7 @@
+*'symbol' is a 32-bit int that is a abs value or mem addr. It has an IDfyer that lets the compiler know its a 'symbol':
+    -the name of the sym mut b an legal ID(a name the compiler accept):
+        +can b stuff like func,vars,sect
+    -sum asm have external syms:
+        .+global is one#think its in both 86/ARM.s
+    -syms only valid in that file:
+        +you can make a dir file
