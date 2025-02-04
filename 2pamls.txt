@@ -1,3 +1,9 @@
+#*
+                                                              This gone b needed
+ARM mode is a processing mode where the processor is executing the ARM instrct
+    32Bit .wrd...etc
+*#
+
 "a" specifies that the section is allocatable.
 "x" specifies that the section is executable.
 "w" specifies that the section is writable.
@@ -5,3 +11,27 @@
 "CODE" specifies that the section contains machine instructions.
 "READONLY" specifies that the section must not be written to.
 "ALIGN=n" specifies that the section is aligned on a 2n byte boundary
+***************************************************************************************************************
+                                  REGS n sum structs
+****************************************************************************************************************
+
+*13 GP regs R0-R12:
+    -Prv(Priv)sftwareExec can give mo reg(24regs).(37intotal)/another 3 for sec ext impl/ 3 mo in Virt ext mode impl(43regs intotal)
+*SP[1](44regs)
+*LR(link reg)[1](45regs)#this could b turn n2 a GenreG
+*PC[1]
+*AppProStatReg(APSR)[1]
+
+*GR:#genreg
+  -dere b restriction on LR and SP as GENREG:
+    +30 regs/inclide the LR and SP as bank regs
+#PC can be reg 15 depnd on the mode also no condider a gen reg
+  -C/++ compiler const the SP
+  -usrMode LR can be reg14 also it return the addr of subroutine call
+  -exep mode it the return addr or subroutine calls 
+*PC:
+  -R15
+  -inc by the size of the instruct exec:
+    + in ARM State its 4bytes
+  -w/ data pross instruc you can load the PC directly wit structs
+    
